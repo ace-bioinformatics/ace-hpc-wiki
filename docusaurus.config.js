@@ -15,14 +15,14 @@ const config = {
   favicon: 'https://ace.ac.ug/wp-content/uploads/2022/04/cropped-android-chrome-512x512-2.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ace-bioinformatics.github.io/ace-hpc-wiki/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ace-hpc-wiki/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'ACE Bioinformatics', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
