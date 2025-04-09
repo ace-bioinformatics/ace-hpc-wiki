@@ -15,7 +15,7 @@ const config = {
   favicon: 'https://ace.ac.ug/wp-content/uploads/2022/04/cropped-android-chrome-512x512-2.png',
 
   // Set the production url of your site here
-  url: 'https://ace-bioinformatics.github.io/ace-hpc-wiki/',
+  url: 'https://ace-bioinformatics.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/ace-hpc-wiki/',
