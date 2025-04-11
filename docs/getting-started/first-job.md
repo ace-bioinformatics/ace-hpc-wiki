@@ -18,7 +18,7 @@ Create a file named `test_job.sh`:
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=1gb
 
-echo "Hello from the ACEBDIS HPC Cluster!"
+echo "Hello from the ACE HPC Cluster!"
 hostname
 sleep 60
 ```
@@ -27,7 +27,7 @@ sleep 60
 ```bash
 sbatch test_job.sh
 ```
-You’ll see a job ID (e.g., `Submitted batch job 12345`).
+You’ll see a job ID (e.g, `Submitted batch job 12345`).
 
 ### Step 3: View yout job in the queue
 ```bash

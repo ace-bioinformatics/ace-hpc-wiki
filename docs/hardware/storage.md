@@ -6,17 +6,17 @@ title: Storage Systems
 The ACE HPC Cluster provides multiple storage options for users.
 
 ### File Systems
-| Name      | Path          | Size   | Quota       | Purpose              |
-|-----------|---------------|--------|-------------|----------------------|
-| Home      | `/home/$USER` | 500 TB | 50 GB/user  | Personal files       |
-| Scratch   | `/scratch`    | 2 PB   | None        | Temporary job data   |
-| Project   | `/project`    | 1 PB   | By request  | Group storage        |
+| Name      | Path             | Size  | Quota       | Purpose              |
+|-----------|------------------|-------|-------------|----------------------|
+| Home      | `/home/$USER`    | 37 GB | 50 GB/user  | Personal files       |
+| Root      | `/`              | 180 GB| System use  | Operating system     |
+| ace-data1 | `/etc/ace-data`  | 190 TB| Shared      | Large shared storage |
 
 ### Policies
 - **Home**: Backed up daily; not for large datasets.
-- **Scratch**: No backups; files older than 90 days are purged.
-- **Project**: Requires approval; contact [support](#).
+- **ace-data1**: Shared space; manage usage responsibly.
+- **Root**: Reserved for system files—do not store data here.
 
 ### Usage Tips
-- Use Scratch for large, temporary files during jobs.
-- Transfer completed data to Home or Project for safekeeping.
+- Use ace-data1 for large datasets and shared project files.
+- Keep Home for lightweight, personal scripts or configs.

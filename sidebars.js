@@ -78,6 +78,11 @@ const sidebars = {
         },
         {
           type: 'doc',
+          id: 'running-jobs/sample-scripts',
+          label: 'Sample SLURM Job Scripts'
+        },
+        {
+          type: 'doc',
           id: 'running-jobs/troubleshooting',
           label: 'Troubleshooting Jobs', // Overrides "troubleshooting"
         },
