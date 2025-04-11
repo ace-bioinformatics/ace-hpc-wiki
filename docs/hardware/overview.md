@@ -11,7 +11,7 @@ The ACE HPC Cluster is designed for bioinformatics and data-intensive research. 
 | Standard     | 13       | 208   |  416 GB  | 193.2 TB      |
 
 ## Specifications
-Each of the nodes is a PowerEdge C620p a high-density, 2U rack server designed for scale out hyperscale environments. It is part of Dell's PowerEdge C-Series optimized for compute intensive workloads like HPC, virtualization, cloud computing and big data analytics.
+Each of the nodes is a Sun Delta Sun Oracle 300 -2190 Type A206 5600W AC Input Power Supply a high-wattage, PSU rack server designed for Oraclr/Sun Server amd storage systems.
 
 ### CPU
 
