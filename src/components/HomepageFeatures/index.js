@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/speedometer-svgrepo-com.svg').default, 
     description: (
       <>
-        Learn how to access the ACEBDIS HPC cluster, connect via SSH, and submit your first job in minutes. Check out our <a href="/docs/getting-started/accounts">step-by-step guide</a>.
+        Learn how to access the ACE HPC cluster, connect via SSH, and submit your first job in minutes. Check out our <a href="/docs/getting-started/accounts">step-by-step guide</a>.
       </>
     ),
   },

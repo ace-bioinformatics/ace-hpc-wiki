@@ -6,7 +6,7 @@ title: Connecting to the Cluster
 This guide explains how to connect to the ACE HPC Cluster using SSH.
 
 ### Prerequisites
-- An active ACEBDIS HPC account.
+- An active ACE HPC account.
 - An SSH client (e.g., OpenSSH on Linux/Mac, PuTTY on Windows).
 
 ### Login Nodes
@@ -30,15 +30,15 @@ This guide explains how to connect to the ACE HPC Cluster using SSH.
 
 
 ## Connecting to the ACE HPC Cluster off-site
-This guide provides instructions for users to connect to the African Centre of Excellence in Bioinformatics and Data Intensive Sciences (ACEBDIS) High Performance Computing (HPC) Cluster from off-site. Follow the steps below to establish a secure connection.
+This guide provides instructions for users to connect to the African Centre of Excellence in Bioinformatics and Data Intensive Sciences (ACE) High Performance Computing (HPC) Cluster from off-site. Follow the steps below to establish a secure connection.
 
 ### Prerequisites
-- An active ACEBDIS HPC account with a username and password.
+- An active ACE HPC account with a username and password.
 - A computer with an SSH client installed (e.g., OpenSSH on Linux/Mac, or PuTTY on Windows).
 - Access to EduVPN credentials provided by the African Centre of Excellence in Bioinformatics.
 
 ### Step 1: Connect to the ACE Network Using EduVPN
-To access the ACEBDIS HPC Cluster from off-site, users must first connect to the ACE network using EduVPN. Follow these steps:
+To access the ACE HPC Cluster from off-site, users must first connect to the ACE network using EduVPN. Follow these steps:
 
 1. **Download and Install EduVPN**  
    Visit the official EduVPN website to download the client:  
@@ -58,6 +58,6 @@ After successfully connecting to the ACE network through EduVPN, users can acces
    Launch a terminal application on your computer. For Windows users, this could be a tool like PuTTY or the Windows Subsystem for Linux (WSL) terminal. For Mac and Linux users, the default terminal application will suffice.
 
 2. **Enter the SSH Command**  
-   In the terminal, enter the following command to connect to the ACEBDIS HPC Cluster:  
+   In the terminal, enter the following command to connect to the ACE HPC Cluster:  
    ```bash
    ssh <username>@biocompace.ace.ac.ug

@@ -3,7 +3,7 @@ id: first-job
 title: Submitting Your First Job
 ---
 
-This tutorial walks you through submitting a simple job to the ACEBDIS HPC Cluster using SLURM.
+This tutorial walks you through submitting a simple job to the ACE HPC Cluster using SLURM.
 
 ### Step 1: Write a Job Script
 Create a file named `test_job.sh`:

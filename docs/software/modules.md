@@ -3,7 +3,7 @@ id: modules
 title: Using Environment Modules
 ---
 
-The ACEBDIS HPC Cluster uses Lmod to manage software environments.
+The ACE HPC Cluster uses Lmod to manage software environments.
 
 ### Basic Commands
 - List available modules:
