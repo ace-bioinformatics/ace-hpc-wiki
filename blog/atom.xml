@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ace-bioinformatics.github.io/ace-hpc-wiki/blog</id>
-    <title>ACE HPC Wiki Blog</title>
+    <title>ACE UGANDA HPC Wiki Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ace-bioinformatics.github.io/ace-hpc-wiki/blog"/>
-    <subtitle>ACE HPC Wiki Blog</subtitle>
+    <subtitle>ACE UGANDA HPC Wiki Blog</subtitle>
     <icon>https://ace-bioinformatics.github.io/ace-hpc-wiki/https://ace.ac.ug/wp-content/uploads/2022/04/cropped-android-chrome-512x512-2.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
