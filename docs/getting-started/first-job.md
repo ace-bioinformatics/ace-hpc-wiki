@@ -2,10 +2,12 @@
 id: first-job
 title: Submitting Your First Job
 ---
-
+### Job Submission
 This tutorial walks you through submitting a simple job to the ACE HPC Cluster using SLURM.
 
-### Step 1: Write a Job Script
+## Steps
+
+### Write a Job Script
 Create a file named `test_job.sh`:
 
 ```bash
@@ -22,14 +24,14 @@ echo "Hello from the ACE HPC Cluster!"
 hostname
 sleep 60
 ```
-### Step 2: Submit the Job
+### Submit the Job
 
 ```bash
 sbatch test_job.sh
 ```
 You’ll see a job ID (e.g, `Submitted batch job 12345`).
 
-### Step 3: View yout job in the queue
+### View yout job in the queue
 ```bash
 squeue -u $USER
 ```

@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ACE HPC Wiki',
+  title: 'ACE UGANDA HPC Wiki',
   tagline: 'High Performance Computing at the African Centre of Excellence in Bioinformatics and Data Intensive Sciences',
   favicon: 'https://ace.ac.ug/wp-content/uploads/2022/04/cropped-android-chrome-512x512-2.png',
 
@@ -34,6 +34,11 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB'
+      }
+    }
   },
 
   presets: [
@@ -76,7 +81,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'ACE HPC WIKI',
+        title: 'ACE UGANDA HPC WIKI',
         logo: {
           alt: 'ACE logo',
           src: 'img/ace.png',
@@ -89,7 +94,7 @@ const config = {
             label: 'Wiki',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ace-bioinformatics/ace-hpc-wiki',
             label: 'GitHub',
             position: 'right',
           },
